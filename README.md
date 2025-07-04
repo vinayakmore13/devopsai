@@ -1,4 +1,4 @@
-# 🤖 DevOps Chatbot UI
+# 🤖 DevOps Chatbot
 
 A simple chatbot interface built using HTML, CSS, and JavaScript — connected to an `n8n` backend via webhook. It’s containerized with Docker and deployed manually or via Jenkins on AWS EC2. ☁️🐳⚙️
 
@@ -50,8 +50,8 @@ A simple chatbot interface built using HTML, CSS, and JavaScript — connected t
 ### 🔹 Build Locally with Docker
 
 ```bash
-docker build -t chatbot-ui .
-docker run -d -p 80:80 chatbot-ui
+docker build -t simple-chatbot .
+docker run -d -p 80:80 simple-chatbot
 
 🔹 Deploy with Jenkins
 Jenkins pulls from this repo
